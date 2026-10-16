@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Rice dataset and model outputs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+dataset/
+datasets/
+data/
+prepared/
+*.zip
+*.7z
+*.pt
+*.onnx
+runs/
+reports/*.json
+reports/*.jpg
+reports/*.png
+reports/*.csv
+.DS_Store
+Thumbs.db
